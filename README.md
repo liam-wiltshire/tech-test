@@ -1,6 +1,8 @@
 # Tebex Tech Test
 
 ## Task
+
+### Part 1
 Refactor the LookupController in this codebase. In particular, consider how Composition, Inheritance and Contracts can refactor this code in a clean, maintainable way.
 Ensure that the final code follows PSR-2 standards (hint, some of it currently doesn't), and structure the code in a way that shows your knowledge of:
 
@@ -9,7 +11,11 @@ Ensure that the final code follows PSR-2 standards (hint, some of it currently d
 - Contracts (Interfaces)
 - Dependency Injection (In Laravel this also includes use of the Service Container)
 
-## Bonus Points
+
+### Part 2
+Due to rate limits enforced by the underlying services, consider how data can be cached or persisted so that we're not having to call the underlying service every time
+
+### Bonus Points
 
 - Implement some 'defensive programming' (consider how and why the application might fail and implement appropriate)
 - Consider how error/fail states should be communicated back to the user
