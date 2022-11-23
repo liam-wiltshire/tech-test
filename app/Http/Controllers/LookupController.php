@@ -54,7 +54,6 @@ class LookupController extends Controller
             }
         } elseif ($request->get('type')=='steam') {
             if ($request->get("username")) {
-                //@TODO - Make this an exception
                 die("Steam only supports IDs");
             } else {
                 $id = $request->get("id");
