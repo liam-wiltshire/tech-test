@@ -4,7 +4,7 @@
 
 ### Part 1
 Refactor the LookupController in this codebase. In particular, consider how Composition, Inheritance and Contracts can refactor this code in a clean, maintainable way.
-Ensure that the final code follows PSR-2 standards (hint, some of it currently doesn't), and structure the code in a way that shows your knowledge of:
+Ensure that the final code follows PSR-12 standards (hint, some of it currently doesn't), and structure the code in a way that shows your knowledge of:
 
 - SOLID principles
 - OOP
@@ -13,13 +13,11 @@ Ensure that the final code follows PSR-2 standards (hint, some of it currently d
 
 
 ### Part 2
-Due to rate limits enforced by the underlying services, consider how data can be cached or persisted so that we're not having to call the underlying service every time
-
-### Part 3
 Write some unit or feature tests for the code you've written. You do not need to have complete test coverage we just want to see that you have some experience in writing automated tests!
 
 ### Bonus Points
 
+- Due to rate limits enforced by the underlying services, consider how data can be cached or persisted so that we're not having to call the underlying service every time
 - Implement some 'defensive programming' (consider how and why the application might fail and implement appropriate precautions)
 - Consider how error/fail states should be communicated back to the user
 
